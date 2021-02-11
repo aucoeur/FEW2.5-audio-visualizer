@@ -1,0 +1,29 @@
+body,
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Libre Franklin', sans-serif;
+    background-color: rgb(23, 30, 46);
+    color: #fff8f1;
+}
+
+.container {
+    justify-content: center;
+}
+
+/* #canvas {
+    border: 1px solid;
+} */
+
+button {
+    margin: 5px;
+    padding: 10px;
+    height: 40px;
+    border-radius: 0.25em;
+    border: 1px solid;
+}
